@@ -3,7 +3,9 @@
 > A professional theme with hand-picked & bold shades of purple for [bat](https://github.com/sharkdp/bat) — A cat clone with wings.
 
 [![Version](https://img.shields.io/github/v/release/ahmadawais/shades-of-purple-bat-theme?style=flat-square)](https://github.com/ahmadawais/shades-of-purple-bat-theme/releases)
+[![npm version](https://img.shields.io/npm/v/shades-of-purple-bat-theme?style=flat-square)](https://www.npmjs.com/package/shades-of-purple-bat-theme)
 [![License](https://img.shields.io/github/license/ahmadawais/shades-of-purple-bat-theme?style=flat-square)](https://github.com/ahmadawais/shades-of-purple-bat-theme/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/npm/dt/shades-of-purple-bat-theme?style=flat-square)](https://www.npmjs.com/package/shades-of-purple-bat-theme)
 
 ## What is Bat?
 
@@ -15,7 +17,27 @@ Shades of Purple is a professional theme suite carefully designed with hand-pick
 
 ## Installation
 
-### Automatic Installation
+### NPM Installation (Recommended)
+
+The easiest way to install the theme is via npm:
+
+```bash
+npm install -g shades-of-purple-bat-theme
+```
+
+The theme will be automatically installed and the bat cache will be rebuilt. That's it! 🎉
+
+**Alternative package managers:**
+
+```bash
+# Using yarn
+yarn global add shades-of-purple-bat-theme
+
+# Using pnpm
+pnpm add -g shades-of-purple-bat-theme
+```
+
+### Automatic Installation (cURL)
 
 ```bash
 # Create the themes directory if it doesn't exist
