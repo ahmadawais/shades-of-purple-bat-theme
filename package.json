@@ -8,7 +8,7 @@
     "preuninstall": "node scripts/uninstall.js"
   },
   "bin": {
-    "shades-of-purple-bat": "./scripts/install.js"
+    "shades-of-purple-bat": "scripts/install.js"
   },
   "keywords": [
     "bat",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadawais/shades-of-purple-bat-theme.git"
+    "url": "git+https://github.com/ahmadawais/shades-of-purple-bat-theme.git"
   },
   "bugs": {
     "url": "https://github.com/ahmadawais/shades-of-purple-bat-theme/issues"
